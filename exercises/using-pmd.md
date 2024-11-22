@@ -5,4 +5,6 @@ Pick a Java project from Github (see the [instructions](../sujet.md) for suggest
 You can use the default [rule base](https://github.com/pmd/pmd/blob/master/pmd-java/src/main/resources/rulesets/java/quickstart.xml) available on the source repository of PMD.
 
 ## Answer
-
+```
+~/pmd-bin-7.7.0/bin$ ./pmd check -d /home/vahid/program2test/commons-lang-master -R rulesets/java/quickstart.xml -f html > pmd-results.html
+```
